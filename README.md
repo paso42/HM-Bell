@@ -24,6 +24,11 @@ Das Projekt basiert auf der Software für den HM-LC-Sw2-FM (2-Ch. Input/Output) 
 *Achtung: Die Logikpegel des AT Mega 328P und des CC1101 sind hier nicht angeglichen! Das Ausgangslevel des µC ist mit 4,2 - 5 V über dem von TI spezifizierten 3,9 V an den Signaleingängen. Durch die kurzen Signalzeiten des SPI und der internen Clampdioden des CC1101 funktioniert das allerdings trotzdem. Dies kann mit einem Spannungsteiler, externen Schutzdioden, oder einem Pegelwandler auch sauber aufgebaut werden.  
 Um dieses Problem zu umgehen kann anstelle eines Arduino Nano auch ein Pro Mini verendet werden, dann müssen auch die Relais für 3,3V ausgelegt, oder mittels Transistor geschaltet werden. Eine aktuelle Version die dies berücksichtigt liegt noch nicht vor.*
 
+![TopLayer](/images/HM-Bell_v2_toplayer.jpg)
+
+![BottomLayer](/images/HM-Bell_v2_bottomlayer.jpg)
+
+
 # HM Steuerung
 
 Channel 1 (Aktor): Klingel ein(off) / aus(on) (invertierte Belegung)
