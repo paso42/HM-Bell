@@ -8,6 +8,8 @@ Zur Unterputzmontage und zum Signalabgriff sowie zum Ein- und Ausschalten einer 
 
 Das Projekt basiert auf der Software für den HM-LC-Sw2-FM (2-Ch. Input/Output) von papa aus der Asksinpp Library und dient zur aktiven Benachrichtigung beim Betätigen der Klingel per Pushdienst und zur Deaktivierung der Haustürklingel über Nacht.
 
+![Homematic-Forum](https://homematic-forum.de/forum/viewtopic.php?f=76&t=60687)
+
 # Hardware
 * Arduino Nano (alternativ Pro Mini 5V oder 3V3) (1x)
 * CC1101 Funkmodul (1x)
