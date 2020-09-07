@@ -31,6 +31,8 @@ Um dieses Problem zu umgehen kann anstelle eines Arduino Nano auch ein Pro Mini 
 
 # HM Steuerung
 
+![HomematicProgramm](/images/HM-Bell_CCU-Programm.png)
+
 Channel 1 (Aktor): Klingel ein(off) / aus(on) (invertierte Belegung)
 Channel 2 (sensor): wenn betätigt, Status in CCU aktualisieren
 
