@@ -25,7 +25,7 @@ Das Projekt basiert auf der Software für den HM-LC-Sw2-FM (2-Ch. Input/Output) 
 Um dieses Problem zu umgehen kann anstelle eines Arduino Nano auch ein Pro Mini verendet werden, dann müssen auch die Relais für 3,3V ausgelegt, oder mittels Transistor geschaltet werden. Eine aktuelle Version die dies berücksichtigt liegt noch nicht vor.*
 
 
-![Schematic](/images/HM-Bell_v2_shematic.png)
+![Schematic](/images/HM-Bell_v2_shematic.jpg)
 
 ![TopLayer](/images/HM-Bell_v2_toplayer.jpg)
 
