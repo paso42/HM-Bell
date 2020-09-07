@@ -29,6 +29,8 @@ Das Projekt basiert auf der Software für den HM-LC-Sw2-FM (2-Ch. Input/Output) 
 
 [Materialliste](https://www.reichelt.de/my/1750682)
 
+Bei Bedarf kommen hier noch Buchsenleisten im Rastermaß 2 mm und 2,54 mm dazu.
+
 *Das Ausgangslevel des µC ist mit 4,2 - 5 V über dem von TI spezifizierten 3,9 V an den Signaleingängen. Daher wurden in der Version 2.1 die Logikpegel des AT Mega 328P und des CC1101 durch einen Spannungsteiler unidirektional herunter gebrochen (MOSI, CLK, CS). 
 Um dieses Problem ganz zu umgehen kann anstelle eines Nano auch ein 3V3 Pro Mini verendet werden, dazu muss jedoch das entsprechende Relais für 3,3V ausgelegt, oder mittels Transistor geschaltet werden.*
 
@@ -55,7 +57,7 @@ Automatisches zurücksetzen des Ch. 2 (verzögerung um 10s verhindert mehrfach B
 
 # Changelog
 Version 2.1
-* Korrektur der Levelanpassung zwischen 5V µC und Funkmodul mittels Spannungsteiler
+* Korrektur zur Levelanpassung zwischen 5V µC und 3,3V Funkmodul mittels Spannungsteiler
 
 Version 2
 * Korrektur der Masseführung für Signaleingang
