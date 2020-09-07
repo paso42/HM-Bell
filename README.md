@@ -6,7 +6,7 @@ Klingelplatine für die Homematic Smart-Home Steuerung
 
 Zur Unterputzmontage und zum Signalabgriff sowie zum Ein- und Ausschalten einer konventionellen Haustürklingel.
 
-Das Projekt basiert auf der Software für den HM-LC-Sw2-FM (2-Ch. Input/Output) von papa und dient zur aktiven Benachrichtigung beim Betätigen der Klingel per Pushdienst und zur Deaktivierung der Haustürklingel über Nacht.
+Das Projekt basiert auf der Software für den HM-LC-Sw2-FM (2-Ch. Input/Output) von @pa-pa aus der Asksinpp Library und dient zur aktiven Benachrichtigung beim Betätigen der Klingel per Pushdienst und zur Deaktivierung der Haustürklingel über Nacht.
 
 # Hardware
 * Arduino Nano (alternativ Pro Mini 5V oder 3V3) (1x)
@@ -31,6 +31,9 @@ Um dieses Problem zu umgehen kann anstelle eines Arduino Nano auch ein Pro Mini 
 
 ![BottomLayer](/images/HM-Bell_v2_bottomlayer.jpg)
 
+# Sketch
+
+Der verwendete Sketch HM-LC-Sw2-FM.ino von @pa-pa ist im Repo hinterlegt.
 
 # HM Steuerung
 
@@ -42,6 +45,13 @@ Channel 2 (sensor): wenn betätigt, Status in CCU aktualisieren
 Homematic Programm:
 Push Benachrichtigung senden
 Automatisches zurücksetzen des Ch. 2 (verzögerung um 10s verhindert mehrfach Benachrichtigung bei mehrfachem Klingeln) 
+
+# Changelog
+Version 2
+* Korrektur der Masseführung für Signaleingang
+
+Version 1
+* Erster Aufbau
 
 # Lizenz:
 Creative Commons BY-NC-SA 4.0 DE (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
