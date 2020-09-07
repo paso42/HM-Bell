@@ -8,7 +8,7 @@ Zur Unterputzmontage und zum Signalabgriff sowie zum Ein- und Ausschalten einer 
 
 Das Projekt basiert auf der Software für den HM-LC-Sw2-FM (2-Ch. Input/Output) von papa aus der Asksinpp Library und dient zur aktiven Benachrichtigung beim Betätigen der Klingel per Pushdienst und zur Deaktivierung der Haustürklingel über Nacht.
 
-![Homematic-Forum](https://homematic-forum.de/forum/viewtopic.php?f=76&t=60687)
+[Homematic-Forum](https://homematic-forum.de/forum/viewtopic.php?f=76&t=60687)
 
 # Hardware
 * Arduino Nano (alternativ Pro Mini 5V oder 3V3) (1x)
@@ -20,8 +20,14 @@ Das Projekt basiert auf der Software für den HM-LC-Sw2-FM (2-Ch. Input/Output) 
 * Elko 1000µF (1x)
 * Anschlussblock 8-fach (1x)
 * Microtaster (1x)
-* SMD Widerstände, Dioden, Kondensatoren, eine LED und ein Transistor
+* SMD Widerstände 0603: 330R (1x), 1kR (6x), 1,8kR (3x), 10kR (1x)
+* Kondensatoren 0603: 100nF (2x)
+* Dioden (2x)
+* LED (1x)
+* NPN Transistor (1x)
 * SMA Stecker (optional)
+
+[Materialliste](https://www.reichelt.de/my/1750682)
 
 *Das Ausgangslevel des µC ist mit 4,2 - 5 V über dem von TI spezifizierten 3,9 V an den Signaleingängen. Daher wurden in der Version 2.1 die Logikpegel des AT Mega 328P und des CC1101 durch einen Spannungsteiler unidirektional herunter gebrochen (MOSI, CLK, CS). 
 Um dieses Problem ganz zu umgehen kann anstelle eines Nano auch ein 3V3 Pro Mini verendet werden, dazu muss jedoch das entsprechende Relais für 3,3V ausgelegt, oder mittels Transistor geschaltet werden.*
