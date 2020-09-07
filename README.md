@@ -49,7 +49,7 @@ Automatisches zurücksetzen des Ch. 2 (verzögerung um 10s verhindert mehrfach B
 
 # Changelog
 Version 2.1
-*Korrektur der Levelanpassung zwischen 5V µC und Funkmodul mittels Spannungsteiler
+* Korrektur der Levelanpassung zwischen 5V µC und Funkmodul mittels Spannungsteiler
 
 Version 2
 * Korrektur der Masseführung für Signaleingang
