@@ -32,4 +32,4 @@ Push Benachrichtigung senden
 Automatisches zurücksetzen des Ch. 2 (verzögerung um 10s verhindert mehrfach Benachrichtigung bei mehrfachem Klingeln) 
 
 # Lizenz:
-2020-09-07 Patrick Soboll Creative Commons BY-NC-SA 4.0 DE (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
+Creative Commons BY-NC-SA 4.0 DE (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
