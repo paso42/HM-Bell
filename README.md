@@ -1,5 +1,7 @@
 # HM-Bell
 
+![Projektbild](/images/HM-Bell_v2_3D_view_2to3.jpg)
+
 Klingelplatine für die Homematic Smart-Home Steuerung
 
 Zur Unterputzmontage und zum Signalabgriff sowie zum Ein- und Ausschalten einer konventionellen Haustürklingel.
