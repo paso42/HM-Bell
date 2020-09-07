@@ -26,11 +26,11 @@ Das Projekt basiert auf der Software für den HM-LC-Sw2-FM (2-Ch. Input/Output) 
 *Das Ausgangslevel des µC ist mit 4,2 - 5 V über dem von TI spezifizierten 3,9 V an den Signaleingängen. Daher wurden in der Version 2.1 die Logikpegel des AT Mega 328P und des CC1101 durch einen Spannungsteiler unidirektional herunter gebrochen (MOSI, CLK, CS). 
 Um dieses Problem ganz zu umgehen kann anstelle eines Nano auch ein 3V3 Pro Mini verendet werden, dazu muss jedoch das entsprechende Relais für 3,3V ausgelegt, oder mittels Transistor geschaltet werden.*
 
-![Schematic](/images/HHM-Bell_V2_1_scm.png)
+![Schematic](/images/HM-Bell_V2_1_scm.png)
 
-![TopLayer](/images/HHM-Bell_V2_1_top.png)
+![TopLayer](/images/HM-Bell_V2_1_top.png)
 
-![BottomLayer](/images/HHM-Bell_V2_1_bot.png)
+![BottomLayer](/images/HM-Bell_V2_1_bot.png)
 
 # Sketch
 
