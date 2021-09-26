@@ -1,3 +1,13 @@
+---
+isProject: true
+Desc: Homematic Klingelsteuerung/-überwachung
+ProjectUrl: https://github.com/paso42/HM-Bell
+Author: paso
+AuthorUrl: https://github.com/paso42
+Tags: Klingel, Sensor, Aktor
+Thumb: /images/HM-Bell_v2_3D_view_2to3.jpg
+---
+
 # HM-Bell
 
 ![Projektbild](/images/HM-Bell_v2_3D_view_2to3.jpg)
